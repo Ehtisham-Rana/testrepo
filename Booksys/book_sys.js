@@ -26,6 +26,7 @@ function showbooks() {
   <p><strong>Author Name:</strong> ${book.authorName} </p>
   <p><strong>Book Description:</strong> ${book.bookDescription}</p>
   <p><strong>No. of Pages:</strong> ${book.pagesNumber} </p>`)
+ 
     document.getElementById('books').innerHTML = booksDiv;}
 
 function clearInputs() {
